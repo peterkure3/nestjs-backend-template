@@ -9,9 +9,9 @@ import { LoggerModule } from './logger/logger.module';
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
     PrismaModule,
+    LoggerModule,
     AuthModule,
     UserModule,
-    LoggerModule,
   ],
 })
 export class AppModule {}
